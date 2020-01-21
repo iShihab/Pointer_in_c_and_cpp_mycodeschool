@@ -9,8 +9,8 @@ int main()
     char *p0; // declaring a character pointer
     p0 = (char*)p; //type casting p integer pointer to character pointer
     printf("size of char is %d bytes\n", sizeof(char)); //
-    print("Adress = %d, value = %d\n",p0,*p0); // p0 now only holds the value 1bytes or 8bits value  of 1025
-    
+    printf("Adress = %d, value = %d\n",p0,*p0); // p0 now only holds the value 1bytes or 8bits value  of 1025
+
     
 
 }
