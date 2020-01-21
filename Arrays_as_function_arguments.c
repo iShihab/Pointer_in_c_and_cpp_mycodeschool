@@ -1,4 +1,5 @@
 // Arrays as function argument
+// In Arrays there is no call be value there is always call by reference
 #include <stdio.h>
 
 void printSum(int x[])
