@@ -6,11 +6,15 @@
 int main(int argc, char const *argv[])
 {
     int A[] = {2, 4, 5, 8, 1};
-    printf("%d\n", A);
-    printf("%d\n", &A[0]);
-    printf("%d\n", A[0]);
-    printf("%d\n", *A);
-    A++             //invalid
-        int *p = A; //valid
+    int i;
+    int *p = A;
+    for (i = 0; i < 5; i++)
+    {
+        printf("%d\n", &A[i]);
+        printf("%d\n", A + i);
+        printf("%d\n", A[i]);
+        printf("%d\n", *(A + i));
+    }
+
     return 0;
 }
