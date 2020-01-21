@@ -7,7 +7,7 @@ int main()
     prittf("size of integer is %d bytes\n", sizeof(int));//  printing size of integer             
     print("Adress = %d, value = %d\n",p,*p); //printing address of p and dereferancing p(value of p)
     char *p0; // declaring a character pointer
-    p0 = p; //this will give a compilation error as p0 is a pointer to char and p is a poiter to integer  
-
+    p0 = (char*)p; //type casting p integer pointer to character pointer
+    
 
 }
