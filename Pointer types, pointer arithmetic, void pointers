@@ -10,6 +10,8 @@ int main()
     p0 = (char*)p; //type casting p integer pointer to character pointer
     printf("size of char is %d bytes\n", sizeof(char)); //
     printf("Adress = %d, value = %d\n",p0,*p0); // p0 now only holds the value 1bytes or 8bits value  of 1025
+    printf("Adress = %d, value = %d\n",p0+1,*p0+1); //Increae memory location 1 bytes as char size is one bytes
+    
 
     
 
