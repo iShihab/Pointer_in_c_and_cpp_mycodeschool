@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int a = 1025;
+    int *p;  //declaring a integer pointer p
+    p = &a;  // address of a is  stored in p
+    prittf("size of integer is %d bytes\n", sizeof(int));//  printing size of integer             
+    print("Adress = %d, value = %d\n",p,*p); //printing address of p and dereferancing p(value of p)
+}
