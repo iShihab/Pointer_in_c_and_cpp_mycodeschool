@@ -14,6 +14,7 @@ int main(int argc, char const *argv[])
     printf("%d\n", *(*q));    //q->p->x output will be the value of x
     printf("%d\n", **r);      //r->q->p output will be the address of p
     printf("%d\n", *(*(*r))); //r->q->p->x output will be the value of x
-
+    **q = *p + 2;
+    printf("%d\n", x);
     return 0;
 }
