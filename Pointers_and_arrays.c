@@ -10,5 +10,7 @@ int main(int argc, char const *argv[])
     printf("%d\n", &A[0]);
     printf("%d\n", A[0]);
     printf("%d\n", *A);
+    A++             //invalid
+        int *p = A; //valid
     return 0;
 }
