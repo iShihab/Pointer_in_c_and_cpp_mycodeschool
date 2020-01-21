@@ -4,4 +4,4 @@ p=&x;
 *p=6;
 int **q; //read as pointer to int star
 q=&p;
-int*** = &q; // read as pointer to pointer to int star
+int*** r = &q; // read as pointer to pointer to int star
