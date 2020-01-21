@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-void Increment(int a)
+void Increment(int *p)
 {
-    a = a + 1;
-    printf("a = %d", a);
+    *p = (*p) + 1;
 }
 
 int main(int argc, char const *argv[])
 {
     int a;
     a = 10;
-    Increment(a);
+    Increment(&a);
+    printf("a = %d", a);
 
     return 0;
 }
