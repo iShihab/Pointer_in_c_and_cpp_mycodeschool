@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 int main(int argc, char const *argv[])
 {
     char c[8];
@@ -9,6 +9,7 @@ int main(int argc, char const *argv[])
     c[3] = 'E';
     c[4] = 'D';
     c[5] = '\0';
-    printf("%s", c);
+    int len = strlen(c);
+    printf("Length = %d\n", len);
     return 0;
 }
