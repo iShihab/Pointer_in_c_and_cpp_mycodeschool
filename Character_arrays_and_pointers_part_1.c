@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     c[2] = 'J';
     c[3] = 'E';
     c[4] = 'D';
-
+    c[5] = '\0';
     printf("%s", c);
     return 0;
 }
