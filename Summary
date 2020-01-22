@@ -1,0 +1,2 @@
+Application's memory arranged like this
+Code(Text)->Static/Global->Stack->Heap (From bottom to top)
