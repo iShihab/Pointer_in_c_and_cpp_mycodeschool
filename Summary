@@ -1,2 +1,5 @@
 Application's memory arranged like this
 Code(Text)->Static/Global->Stack->Heap (From bottom to top)
+
+All the local variables goes to Stack
+A pointer variable take 4bytes memory in a typical architecture
