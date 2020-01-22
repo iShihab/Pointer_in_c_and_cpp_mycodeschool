@@ -2,14 +2,9 @@
 #include <string.h>
 int main(int argc, char const *argv[])
 {
-    char c[8];
-    c[0] = 'S';
-    c[1] = 'A';
-    c[2] = 'J';
-    c[3] = 'E';
-    c[4] = 'D';
-    c[5] = '\0';
+    char c[] = "SAJED";
     int len = strlen(c);
+    printf("Size in bytes = %d\n", sizeof(c));
     printf("Length = %d\n", len);
     return 0;
 }
