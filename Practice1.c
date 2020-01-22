@@ -3,7 +3,7 @@
 
 int main(int argc, char const *argv[])
 {
-    char c[6] = {'S', 'h', 'i', 'h', 'a', 'b'};
+    char c[7] = {'S', 'h', 'i', 'h', 'a', 'b'};
     printf("%s", c);
     return 0;
 }
