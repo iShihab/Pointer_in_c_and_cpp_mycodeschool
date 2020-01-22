@@ -1,9 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
+void printChar(char *a)
+{
+    int i = 0;
+    while (a[i] != '\0')
+    {
+        printf("%c", *&(a[i]));
+        i++;
+    }
+    printf("\n");
+}
+
 int main(int argc, char const *argv[])
 {
-    char c[7] = {'S', 'h', 'i', 'h', 'a', 'b'};
-    printf("%s", c);
-    return 0;
+    char c[20] = "Shihab";
+    printChar(c);
 }
