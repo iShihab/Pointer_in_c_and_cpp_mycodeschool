@@ -6,7 +6,7 @@ void printChar(char *a)
     int i = 0;
     while (a[i] != '\0')
     {
-        printf("%c", *&(a[i]));
+        printf("%c", *(a + i)); //Dereferancing the adresss a[i]
         i++;
     }
     printf("\n");
