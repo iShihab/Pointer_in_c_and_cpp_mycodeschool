@@ -1,16 +1,11 @@
 #include <stdio.h>
 
-void printArray(int *b)
-{
-}
-
 int main(int argc, char const *argv[])
 {
     int a[2][3] = {1, 2, 3, 4, 5, 6};
-    // printArray(a);
-    printf("%d\n", *a);
-    printf("%d", *a + 1);
-    printf("\n%d", *(a + 1));
+    printf("%d\n", *(a + 1) + 2);
+    printf("%d\n", a[1] + 2);
+    printf("%d", &a[1][2]);
 
     return 0;
 }
