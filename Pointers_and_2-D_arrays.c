@@ -12,8 +12,12 @@
 int main(int argc, char const *argv[])
 {
     int a[5] = {2, 4, 6, 8, 10};
-    int s = sizeof(a) / sizeof(a[1]);
-    printArray(a, s);
+    int *p = a;
+    int i = 0;
+    for (i = 0; i < 5; i++)
+    {
+        printf("%d\n", *(p + i));
+    }
 
     return 0;
 }
