@@ -7,8 +7,9 @@ int main(int argc, char const *argv[])
     printf("Output for p: %d\n", p);
     printf("Output for *p: %d\n", *p);
     printf("Output for p+1: %d\n", p + 1);
-    printf("Output for *(p+1): %d\n", *(p + 1));
+    printf("Output for *(p+1): %d\n", *(p + 2));
     printf("Output for p[0]: %d\n", p[0]);
     printf("Output for *p+1: %d\n", *p + 1);
+
     return 0;
 }
