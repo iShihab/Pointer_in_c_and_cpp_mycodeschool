@@ -16,6 +16,8 @@ int main(int argc, char const *argv[])
     // printf("%d\n", *&b[0][0]);
     // printf("%d\n", **(b + 0));
     // printf("%d\n", *(*(b + 1) + 2));
+    printf("%d\n", *b);
+    printf("%d\n", *(b + 0));
 
     // printf("%d\n", (b + 1));
     // printf("%d\n", **(b + 1));
