@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
                       {{0, 8}, {11, 13}}};
 
     printf("%d %d %d %d\n", c, *c, c[0], &c[0][0]);
-    printf("%d\n", **(*c + 0 + 2));
+    printf("%d\n", **(*c));
 
     return 0;
 }
