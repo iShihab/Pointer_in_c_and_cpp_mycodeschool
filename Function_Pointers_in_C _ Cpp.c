@@ -10,5 +10,7 @@ int main()
     //pointer to function that should take
     //(int,int) as argument/parameter and return int
     int (*p)(int, int);
-    p = &Add; //Address of Add function stores in p
+    p = &Add;       //Address of Add function stores in p
+    c = (*p)(2, 3); //de-referencing and executing the function
+    printf("%d\n", c);
 }
