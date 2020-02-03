@@ -4,7 +4,7 @@
 //bad practice
 int *Add(int *a, int *b)
 {
-    //bad practice
+
     int c = (*a) + (*b);
     return &c;
 }
