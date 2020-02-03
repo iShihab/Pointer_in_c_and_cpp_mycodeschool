@@ -4,9 +4,9 @@ int Add(int a, int b)
     return a + b;
 }
 
-void PrintHello()
+void PrintHello(char *name)
 {
-    printf("Hello\n");
+    printf("Hello %s\n", name);
 }
 
 int main()
@@ -19,7 +19,7 @@ int main()
     // c = (*p)(2, 3);     //de-referencing and executing the function
     // printf("%d\n", c);
 
-    void (*ptr)();
+    void (*ptr)(char *);
     ptr = PrintHello;
-    ptr();
+    ptr("Shihab");
 }
