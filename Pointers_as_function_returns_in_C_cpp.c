@@ -8,7 +8,7 @@ int *Add(int *a, int *b)
 
 int main()
 {
-    int x = 2, y = 4;
-    int z = Add(x, y);
-    printf("Sum = %d\n", z);
+    int a = 2, b = 4;
+    int *ptr = Add(&a, &b);
+    printf("Sum = %d\n", *ptr);
 }
