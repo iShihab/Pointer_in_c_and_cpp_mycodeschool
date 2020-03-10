@@ -16,6 +16,6 @@ int main()
     // void pointer
     void *p0;
     p0 = p;
-    printf("Adress = %d,*p0); // will raise an error beacuse (*p0) we can't dereferancing void pointer
-    printf("Adress = %d,*p0+1); // This will also raise an compilation error
+    // printf("Adress = %d,*p0); // will raise an error beacuse (*p0) we can't dereferancing void pointer
+    // printf("Adress = %d,*p0+1); // This will also raise an compilation error
 }
